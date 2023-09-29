@@ -1,0 +1,16 @@
+name: mlc
+channels:
+  - conda-forge
+  - mlc-ai
+dependencies:
+  - python=3.10
+  - tqdm=4.65.0
+  - jupyterlab=3.5.3
+  - ipywidgets
+  - mlc-chat-cli-nightly
+  - pip
+  - git
+  - git-lfs
+  - pip:
+    - markdown
+    - xmltodict
